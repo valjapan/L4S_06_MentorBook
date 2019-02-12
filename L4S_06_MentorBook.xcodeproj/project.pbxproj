@@ -14,6 +14,10 @@
 		0B698A342209ABCA00C617A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B698A322209ABCA00C617A5 /* LaunchScreen.storyboard */; };
 		0B698A3F2209ABCA00C617A5 /* L4S_06_MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B698A3E2209ABCA00C617A5 /* L4S_06_MentorBookTests.swift */; };
 		0B698A4A2209ABCA00C617A5 /* L4S_06_MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B698A492209ABCA00C617A5 /* L4S_06_MentorBookUITests.swift */; };
+		0B698A5B2209AC2500C617A5 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B698A582209AC2500C617A5 /* ryo.jpg */; };
+		0B698A5C2209AC2500C617A5 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B698A592209AC2500C617A5 /* nagata.jpg */; };
+		0B698A5D2209AC2500C617A5 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B698A5A2209AC2500C617A5 /* taithi.JPG */; };
+		0B698A5F2209B0EE00C617A5 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B698A5E2209B0EE00C617A5 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0B698A452209ABCA00C617A5 /* L4S_06_MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4S_06_MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B698A492209ABCA00C617A5 /* L4S_06_MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4S_06_MentorBookUITests.swift; sourceTree = "<group>"; };
 		0B698A4B2209ABCA00C617A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B698A582209AC2500C617A5 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		0B698A592209AC2500C617A5 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		0B698A5A2209AC2500C617A5 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		0B698A5E2209B0EE00C617A5 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		0B698A282209ABC900C617A5 /* L4S_06_MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				0B698A572209AC2500C617A5 /* images */,
 				0B698A292209ABC900C617A5 /* AppDelegate.swift */,
 				0B698A2B2209ABC900C617A5 /* ViewController.swift */,
 				0B698A2D2209ABC900C617A5 /* Main.storyboard */,
 				0B698A302209ABCA00C617A5 /* Assets.xcassets */,
 				0B698A322209ABCA00C617A5 /* LaunchScreen.storyboard */,
 				0B698A352209ABCA00C617A5 /* Info.plist */,
+				0B698A5E2209B0EE00C617A5 /* Mentor.swift */,
 			);
 			path = L4S_06_MentorBook;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				0B698A4B2209ABCA00C617A5 /* Info.plist */,
 			);
 			path = L4S_06_MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		0B698A572209AC2500C617A5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0B698A582209AC2500C617A5 /* ryo.jpg */,
+				0B698A592209AC2500C617A5 /* nagata.jpg */,
+				0B698A5A2209AC2500C617A5 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B698A5B2209AC2500C617A5 /* ryo.jpg in Resources */,
+				0B698A5C2209AC2500C617A5 /* nagata.jpg in Resources */,
+				0B698A5D2209AC2500C617A5 /* taithi.JPG in Resources */,
 				0B698A342209ABCA00C617A5 /* LaunchScreen.storyboard in Resources */,
 				0B698A312209ABCA00C617A5 /* Assets.xcassets in Resources */,
 				0B698A2F2209ABC900C617A5 /* Main.storyboard in Resources */,
@@ -256,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B698A5F2209B0EE00C617A5 /* Mentor.swift in Sources */,
 				0B698A2C2209ABC900C617A5 /* ViewController.swift in Sources */,
 				0B698A2A2209ABC900C617A5 /* AppDelegate.swift in Sources */,
 			);
